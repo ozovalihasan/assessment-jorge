@@ -20,8 +20,8 @@ function App() {
       <div className="grid grid-cols-3 [&>div]:h-64 [&_h2]:font-black [&_h2]:text-[24px] [&_li]:list-disc [&_li]:font-bold [&_li]:list-inside [&_li]:marker:text-orange-500 ">
         <div className='flex m-4 rounded-xl bg-white'>
           <div className='w-1/3 bg-red-200 rounded-l-xl'>
-            <img src={Img1} alt="" className='h-1/2'/>
-            <img src={Img2} alt="" className='h-1/2'/>
+            <img src={Img1} alt="" className='h-1/2 rounded-l-xl'/>
+            <img src={Img2} alt="" className='h-1/2 rounded-l-xl'/>
           </div>
           <div className='w-2/3 p-8'>
             <h2 className=''>
@@ -40,7 +40,7 @@ function App() {
         
         <div className='flex m-4 rounded-xl bg-white'>
           <div className='w-1/3 bg-red-200 rounded-l-xl'>
-            <img src={Img3} alt="" className='object-cover h-full '/>
+            <img src={Img3} alt="" className='object-cover h-full rounded-l-xl'/>
           </div>
           <div className='w-2/3 p-8'>
             
@@ -57,7 +57,7 @@ function App() {
         </div>
         <div className='flex m-4 rounded-xl bg-white'>
           <div className='w-1/3 bg-red-200 rounded-l-xl'>
-            <img src={Img4} alt="" className='object-cover h-full '/>
+            <img src={Img4} alt="" className='object-cover h-full rounded-l-xl'/>
           </div>
           <div className='w-2/3 p-8'>
             <h2>Renderings</h2>
@@ -73,7 +73,7 @@ function App() {
         </div>
         <div className='flex m-4 rounded-xl bg-white'>
           <div className='w-1/3 bg-red-200 rounded-l-xl'>
-            <img src={Img5} alt="" className='object-cover h-full '/>
+            <img src={Img5} alt="" className='object-cover h-full rounded-l-xl'/>
           </div>
           <div className='w-2/3 p-8'>
             <h2>
@@ -92,7 +92,7 @@ function App() {
         
         <div className='flex m-4 rounded-xl bg-white'>
           <div className='w-1/3 bg-red-200 rounded-l-xl'>
-            <img src={Img6} alt="" className='object-cover h-full '/>
+            <img src={Img6} alt="" className='object-cover h-full rounded-l-xl'/>
           </div>
           <div className='w-2/3 p-8'>
             <h2>
@@ -112,7 +112,7 @@ function App() {
 
         <div className='flex m-4 rounded-xl bg-white'>
           <div className='w-1/3 bg-red-200 rounded-l-xl'>
-            <img src={Img7} alt="" className='object-cover h-full '/>
+            <img src={Img7} alt="" className='object-cover h-full rounded-l-xl'/>
           </div>
           <div className='w-2/3 p-8'>
             <h2>
