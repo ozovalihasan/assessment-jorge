@@ -5,6 +5,9 @@ module.exports = {
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
+    fontFamily: {
+      'custom': ['Nunito Sans', 'Helvetica', 'Arial', 'sans-serif']
+    },
     extend: {},
   },
   plugins: [],
