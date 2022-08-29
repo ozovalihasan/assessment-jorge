@@ -1,4 +1,11 @@
-import { useState } from 'react'
+import Img1 from './images/Image1.png'
+import Img2 from './images/Image2.png'
+import Img3 from './images/Image3.png'
+import Img4 from './images/Image4.png'
+import Img5 from './images/Image5.png'
+import Img6 from './images/Image6.png'
+import Img7 from './images/Image7.png'
+
 
 function App() {
 
@@ -13,7 +20,8 @@ function App() {
       <div className="grid grid-cols-3 [&>div]:h-64 [&_h2]:font-black [&_h2]:text-[24px] [&_li]:list-disc [&_li]:font-bold [&_li]:list-inside [&_li]:marker:text-orange-500 ">
         <div className='flex m-4 rounded-xl bg-white'>
           <div className='w-1/3 bg-red-200 rounded-l-xl'>
-            Mock Image
+            <img src={Img1} alt="" className='h-1/2'/>
+            <img src={Img2} alt="" className='h-1/2'/>
           </div>
           <div className='w-2/3 p-8'>
             <h2 className=''>
@@ -32,7 +40,7 @@ function App() {
         
         <div className='flex m-4 rounded-xl bg-white'>
           <div className='w-1/3 bg-red-200 rounded-l-xl'>
-            Mock Image
+            <img src={Img3} alt="" className='object-cover h-full '/>
           </div>
           <div className='w-2/3 p-8'>
             
@@ -49,7 +57,7 @@ function App() {
         </div>
         <div className='flex m-4 rounded-xl bg-white'>
           <div className='w-1/3 bg-red-200 rounded-l-xl'>
-            Mock Image
+            <img src={Img4} alt="" className='object-cover h-full '/>
           </div>
           <div className='w-2/3 p-8'>
             <h2>Renderings</h2>
@@ -65,7 +73,7 @@ function App() {
         </div>
         <div className='flex m-4 rounded-xl bg-white'>
           <div className='w-1/3 bg-red-200 rounded-l-xl'>
-            Mock Image
+            <img src={Img5} alt="" className='object-cover h-full '/>
           </div>
           <div className='w-2/3 p-8'>
             <h2>
@@ -84,7 +92,7 @@ function App() {
         
         <div className='flex m-4 rounded-xl bg-white'>
           <div className='w-1/3 bg-red-200 rounded-l-xl'>
-            Mock Image
+            <img src={Img6} alt="" className='object-cover h-full '/>
           </div>
           <div className='w-2/3 p-8'>
             <h2>
@@ -104,7 +112,7 @@ function App() {
 
         <div className='flex m-4 rounded-xl bg-white'>
           <div className='w-1/3 bg-red-200 rounded-l-xl'>
-            Mock Image
+            <img src={Img7} alt="" className='object-cover h-full '/>
           </div>
           <div className='w-2/3 p-8'>
             <h2>
@@ -127,7 +135,7 @@ function App() {
       
       </div>
       <div className='w-full flex items-center'>
-        <button className='w-64 m-auto p-2 my-16 bg-slate-700 text-white rounded-md'>
+        <button className='w-64 m-auto p-2 my-16 bg-slate-700 text-white rounded-md font-bold'>
           Get STARTED
         </button>
       </div>
